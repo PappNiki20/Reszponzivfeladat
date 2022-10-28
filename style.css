@@ -1,4 +1,4 @@
-main, nav, header, article, section, footer {
+main, nav, header, article,section, footer {
     border: 1px solid gray;
     padding: 10px;
 }
@@ -18,34 +18,77 @@ h1{
 
 }
 
+.kep img{
+    margin: 3px;
+    padding: 3px;
+    border: 1px solid gray;
+}
+.kiskep img {
+    margin: 0;
+    padding: 0;
+}
 
-.kiskep>.kep img{
-    width: 200px;
-    height: 200px;
-    overflow: hidden;
+.kiskep {
     display: grid;
+    gap: 0px;
     grid-template-columns: repeat(4, 1fr);
-   
-
-    grid-template-columns: repeat(4, 1fr);
-    
-
-    grid-template-columns: repeat(4, 1fr);
-    
-
-    grid-template-columns: repeat(4, 1fr);
-    
-    
 }
 
 nav>ul {
+    list-style: none;
+    list-style-type: none;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
+#piros{
+    padding-left: 1px;
+    padding-right: 1,5%;
+    text-align: left;
+    width: 80px;
+    
+    
+}
+
+#jobbra li {
+    padding: 0%;
+    text-align: right;
+}
+a{
+    border: 1px solid red;
+    border-radius: 5px;
+}
+#piros a{
+    color: rgb(255, 1, 1);
+}
+
+a:link {
+   
+    text-decoration: none;
+    
+  }
+  
+ a:visited {
+    color: red;
+    text-decoration: none;
+  }
+  
+ a:hover {
+    color: white;
+    background-color: red;
+    text-decoration: none;
+  }
+  
+ a:active {
+    background-color: red;
+    color: red;
+    text-decoration: none;
+  }
+  
 
 nav {
+    padding-right: 0;
     display: grid;
-    grid-template-columns: 60% auto;
+    grid-template-columns: 1fr 1fr;
 }
 
 
